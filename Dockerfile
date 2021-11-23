@@ -9,4 +9,4 @@ COPY . .
 
 EXPOSE 80
 EXPOSE 443
-CMD [ "sudo", "node", "server.js"]
+CMD [ "node", "server.js"]

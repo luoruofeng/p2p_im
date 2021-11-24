@@ -37,9 +37,9 @@ docker run -d --network=host --name=coturn --restart=always coturn/coturn \
             -n --log-file=stdout \
             --min-port=49160 --max-port=49200 \
             --listening-port=3478 \
-            --external-ip=192.168.43.42 \
+            --external-ip=116.62.22.251  \
             --user=luoruofeng:123456 \
-            --realm=192.168.43.42
+            --realm=hbox.video
 
 echo 创建p2p-im镜像
 docker build -t p2p-im:v1.0 .
